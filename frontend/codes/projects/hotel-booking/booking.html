@@ -29,6 +29,7 @@
         <section>
             <h1>Hotel Booking Form</h1>
             <p>Please provide the required information to complete your hotel reservation</p>
+            <form>
             <fieldset>
                 <legend>Guest Information</legend>
                 <label>Full Name:</label><br>
@@ -73,8 +74,44 @@
                 <label>Vegan</label><br>
             </fieldset>
             <br>
+
+            <fieldset>
+                <legend>Airport Pickup</legend>
+                <p>Do your require airport pickup?</p>
+                <input type="radio" class="response">
+                <label>Yes</label>
+                <input type="radio" class="response">
+                <label>No</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additonal Information</legend>
+                <label>Special Request:</label><br>
+                <textarea placeholder="Enter any special request..."  style="width: 200px ; height: 200px;"></textarea>
+                <label>ID Proof Upload:</label><br>
+                <input type="file">
+                <input type="checkbox">
+                <label>I agree to the hotel terms and contitions.</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Submit Booking</legend>
+                <input type="submit" value="Submit Booking">
+                <input type="reset" value="Reset Form">
+            </fieldset>
+            <hr>
+            
+            <footer>
+                <section>
+                <p>&copy;2026 Grand Core2Dine Hotel.All Rights Reserved.</p>
+
+                </section>
+            </footer>
+
+
     
         </section>
+        </form>
     </main>
 </body>
 </html>

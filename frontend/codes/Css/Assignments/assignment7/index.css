@@ -1,0 +1,40 @@
+body{
+    background-color: beige;
+}
+h1 {
+    color: rgb(34, 34, 114);
+    text-align: center;
+}
+#para1{
+    text-align: center;
+}
+#popular{
+    text-decoration:underline;
+    color: rgb(10, 85, 38);
+    text-align: center;
+}
+div{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    width: 600px;
+    height: 250px;
+}
+h3{
+    color: rgb(10, 85, 38);
+}
+ul{
+    color: red;
+
+}
+#paradiv{
+    color: rgb(93, 93, 218);
+}
+#destination{
+    text-align: center;
+    color: rgb(114, 17, 17);
+}
+.tips::before{
+    content: "tips";
+    color: green;
+}

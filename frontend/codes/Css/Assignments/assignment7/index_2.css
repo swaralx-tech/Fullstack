@@ -1,0 +1,9 @@
+body{
+    background-color:dimgray;
+}
+div  {
+    background-color: aqua;
+}
+div div {
+    background-color: rgb(44, 100, 100);
+}
